@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T09:21:43.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OH_-KSly0pvJO3LWdGUR" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T09:25:35.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uLjFz8vWMpH6JiZe1eRK" version="21.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1265" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
         <mxCell id="flgQ8N4auqFFRh5ke0pL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="flgQ8N4auqFFRh5ke0pL-36" target="flgQ8N4auqFFRh5ke0pL-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="flgQ8N4auqFFRh5ke0pL-36" value="链路状态设置为RECOVER_AFTER_3_HOURS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="flgQ8N4auqFFRh5ke0pL-36" value="链路状态设置为RECOVER_AFTER_3_HOURS，恢复初始Metric" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="355" y="1120" width="198" height="60" as="geometry" />
         </mxCell>
         <mxCell id="flgQ8N4auqFFRh5ke0pL-41" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -142,7 +142,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="flgQ8N4auqFFRh5ke0pL-49" value="清除链路Flapping记录重新开始监测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="flgQ8N4auqFFRh5ke0pL-49" value="清除链路Flapping记录，恢复初始Metric，重新开始监测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="394" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="flgQ8N4auqFFRh5ke0pL-52" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
